@@ -1,0 +1,10 @@
+#Copias de seguridad del sistema
+*~
+
+#Cosas que genera latex
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
