@@ -1,0 +1,6 @@
+#+TITLE: Trasnparencias realizadas para la presentacion de los protocolos google cast y miracast para FR
+
+** Authors: [[https://github.com/adriordi][Adrián Orduña Díaz]] y [[https://github.com/rafaelleru][Rafael Leyva Ruiz]]
+
+Exposición para la asignarura FR en el grado de informática sobre el protocolo miracast y su uso con chromecast, asi 
+como el protocolo google cast, una modificacion del primero por parte de google.
