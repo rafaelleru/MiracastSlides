@@ -1,6 +1,5 @@
 * TODO Nivel de usuario
-** TODO Que es?
-** TODO Como funciona
+** TODO Como funciona by Adri
 ** TODO Posibles usos.
 ** TODO Aplicaciones que lo usan.
 * TODO Nivel Técnico
