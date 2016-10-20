@@ -26,6 +26,7 @@
 \usepackage{graphicx} % Required for the inclusion of images
 \usepackage{natbib} % Required to change bibliography style to
 \usepackage{hyperref}
+\usepackage{makeidx}
 
 % \setlength\parindent{0pt} % Removes all indentation from paragraphs
 
@@ -48,10 +49,13 @@
 
 \date{\today} % Date for the report
 
+\makeindex % Añade un indice al documento
+
 \begin{document}
 
 \maketitle % Insert the title, author and date
 
+\tableofcontents
 
 % If you wish to include an abstract, uncomment the lines below
 % \begin{abstract}
@@ -65,5 +69,8 @@
 \input{sections/introduccion}
 
 \input{sections/historia}
+
+\input{sections/usos}
+
 
 \end{document}
