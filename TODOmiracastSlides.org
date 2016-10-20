@@ -1,10 +1,10 @@
 * TODO Nivel de usuario
 ** TODO Que es?
 ** TODO Como funciona
-** TODO Utilidades
+** TODO Posibles usos.
 ** TODO Historia 
 *** TODO (Protocolo en si, chromecast)
-** TODO Aplicaciones que lo usa
+** TODO Aplicaciones que lo usan.
 * TODO Nivel Técnico
 ** TODO Protocolos que usa por debajo
 ** TODO Proceso de conexion
