@@ -1,17 +1,17 @@
-\section{Proceso de conexion de dispositivos mediante miracast}
+\section{Proceso de conexión de dispositivos mediante Miracast}
 
-Como hemos contado anteriormente el protocolo miracast facilita mucho el proceso de conexión de dispositivos con el objetivo de compartir contenido multimedia, pero como se ejecuta este proceso internamente, ya que el usuario solo pulsa un boton en su dispositivo y la conexion es automática.
+Como hemos contado anteriormente el protocolo Miracast facilita mucho el proceso de conexión de dispositivos con el objetivo de compartir contenido multimedia, pero como se ejecuta este proceso internamente, ya que el usuario solo pulsa un botón en su dispositivo y la conexión es automática.
 
 \subsection{Identificación de dispositivos}
 
-Cuando se intentan parear dos dispositivos para que sean usados con el protocolo miracast 1 de los dispositivos, el que realizara el envio de contenido normalemte, se establece como el primer host de una red WiFi Direct, redes preparadas para el intercambio de ficheros mediante P2P de las que hablaremos mas adelante, y el segundo escanea los dispositivos que hay con esta condición en su rango de alcance. Tras esto se envia una peticion de conexión mediante WPS al dispositivo que hace como localHost primario en la LAN WiFi Direct.
+Cuando se intentan parear dos dispositivos para que sean usados con el protocolo miracast, 1 de los dispositivos, el que realizará el envío de contenido normalmente, se establece como el primer host de una red WiFi Direct, redes preparadas para el intercambio de ficheros mediante P2P de las que hablaremos más adelante, y el segundo escanea los dispositivos que hay con esta condición en su rango de alcance. Tras esto se envía una petición de conexión mediante WPS al dispositivo que hace como localHost primario en la LAN WiFi Direct.
 
 \subsection{Verificación de la conexión}
 
-Una vez que el localHost recive la petición de conexion mediante WPS normalmente pedirá confirmacion, tras la cual dara permiso al segundo dispositivo para entrar a formar parte de la red local formada, en esta primera instancia por dichos dos dispositivos, aunque se podrían ir incorporando mas dispositivos, y se inicia la transferencia de archivos.
+Una vez que el localHost recive la petición de conexión mediante WPS normalmente pedirá confirmación, tras la cual dará permiso al segundo dispositivo para entrar a formar parte de la red local formada, en esta primera instancia por dichos dos dispositivos, aunque se podrían ir incorporando más dispositivos, y se inicia la transferencia de archivos.
 
 \subsection{Transferencia de datos}
 
-Los datos se transmiten, en un principio, en un solo sentido, lo cual indica que no se tiene un feedback de que esta pasando cuando los datos llegan al receptor. Esto se realiza mediante la red WiFi Direct gracias o bien al protocolo RTSP o bien RTP, los cuales poseen conexión cifrada y presentan una gran seguridad para evitar el posible robo de información mediante el intercambio. El receptor simplemente se dedica a recoger los datos y gestionarlos debidamente.
+Los datos se transmiten, en un principio, en un solo sentido, lo cual indica que no se tiene un feedback de que esta pasando cuando los datos llegan al receptor. Esto se realiza mediante la tecnología WiFi Direct gracias o bien al protocolo RTSP o bien RTP, los cuales poseen conexión cifrada y presentan una gran seguridad para evitar el posible robo de información mediante el intercambio. El receptor simplemente se dedica a recoger los datos y gestionarlos debidamente.
 
-En posteriores actualizaciones, o enmascarando el protocolo en una capa superior se podria dotar de la funcionalidad de feedback por parte del receptor, lo cual en diversos escenarios como streamings de grandes cantidades de datos podrian ser útiles, por ejemplo para dejar de ocupar la banda ancha.
+En posteriores actualizaciones, o enmascarando el protocolo en una capa superior, se podría dotar de la funcionalidad de feedback por parte del receptor, lo cual en diversos escenarios como streamings de grandes cantidades de datos podrian ser útiles, por ejemplo para dejar de ocupar la banda ancha.
